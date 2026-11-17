@@ -1,1 +1,0 @@
-# programacao-de-aplicativos-2026
