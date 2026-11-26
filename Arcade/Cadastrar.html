@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArcadeFlix - Cadastrar</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/cadastrar.css">
+    <script src="./JS/cadastrar.js"></script>
+</head>
+
+<body>
+
+    <main class="main">
+
+        <label for="nome">Nome do jogo</label>
+        <input type="text" id="nome" placeholder="Fortnite..." />
+
+        <label for="categoia">Categoia</label>
+        <select>
+            <option value="" disabled selected>Selecione uma categoia</option>
+            <option value="Aventura">Aventura</option>
+            <option value="Corrida">Corrida</option>
+            <option value="Estrategia">Estratégia</option>
+        </select>
+
+        <label for="descricao">Descrição do jogo</label>
+        <input type="text" id="descricao" placeholder="É um jogo de aventura..." />
+
+        <label for="emoji">Emoji do jogo</label>
+        <input type="text" id="emoji" placeholder="⛏️" />
+
+        <label for="cor">Cor do jogo</label>
+        <input type="color" id="cor"/>
+
+        <button onclick="cadastrarJogo()">Cadastrar</button>
+    </main>
+
+</body>
+
+</html>
